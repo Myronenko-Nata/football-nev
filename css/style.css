@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial";
+    background-color: #f3f3f3;
+}
+
+.content {
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.general-img img,
+.second-img img {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursor {
+    cursor:url(../img/boston\ celtics\ pointer.svg),default;
+}
+
+.logo {
+    column-gap: 8px;
+}
+
+.logo p {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.logo b {
+    display: block;
+    color: #39930d;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.contacts a {
+    column-gap: 10px;
+    color: #5a5a5a;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contacts {
+    column-gap: 52px;
+}
+
+.contacts img {
+    align-items: center;
+}
+
+.main-img {
+    row-gap: 10px;
+}
+
+.second-img {
+    column-gap: 10px;
+    padding: 10px 0 31px;
+}
+
+.main {
+    column-gap: 18px;
+    padding: 31 0 29;
+}
+
+.menu h2 {
+    min-width: 300px;
+    padding: 13px 19px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #39930d;
+}
+
+.menu ul {
+    padding: 21px;
+    list-style: none;
+}
+
+.menu a {
+    line-height: 2.1em;
+    color: #343434;
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-bottom: 17px;
+}
+
+.main-text p {
+    margin-bottom: 45px;
+    max-width: 611px;
+}
+
+.main h1 {
+    color: #39930d;
+    font-size: 24px;
+}
+
+.main p {
+    margin-bottom: 17px;
+    line-height: 1.5em;
+    color: #343434;
+    font-size: 14px;
+}
+
+.bottom-line {
+    padding: 10px 0;
+}
+
+.bottom-line,
+footer {
+    background-color: #39930d;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Arial";
+}
+
+.footer ul {
+    column-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
